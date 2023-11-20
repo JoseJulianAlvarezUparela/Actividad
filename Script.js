@@ -20,7 +20,7 @@ const bird = {
 };
 
 // Variables de los obstáculos (pipes)
-const pipeArray = [];  // Arreglo que almacena los obstáculos
+var pipeArray = [];  // Arreglo que almacena los obstáculos
 const pipeWidth = 64;  // Ancho de los obstáculos (tubos)
 const pipeHeight = 512;  // Alto de los obstáculos (tubos)
 const pipeX = boardWidth;  // Posición inicial X de los obstáculos
